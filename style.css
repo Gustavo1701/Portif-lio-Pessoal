@@ -19,7 +19,8 @@ button {
 }
 
 body {
-    background-color: aquamarine;
+    
+    background: linear-gradient(120deg, #B3C8CF, #BED7DC);
     margin: 0;
     padding: 0;
 }
