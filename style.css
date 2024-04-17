@@ -20,7 +20,8 @@ button {
 
 body {
     
-    background: linear-gradient(120deg, #B3C8CF, #BED7DC);
+    background: linear-gradient(120deg, #040D12, #183D3D);
+    color: rgb(184, 184, 184);
     margin: 0;
     padding: 0;
 }
@@ -73,25 +74,25 @@ button {
     cursor: pointer;
 }
 
-button.email {
+button#email {
     background-color: var(--email);
     color: var(--font-color);
     border: 0;
 }
 
-button.email:hover {
+button#email:hover {
     background-color: transparent;
     border: 2px solid var(--email);
     color: var(--email);
 }
 
-button.curriculo {
+button#curriculo {
     background-color: transparent;
     border: 2px solid var(--curriculo);
-    color: #333333;
+    color: #ffffff;
 }
 
-button.curriculo:hover {
+button#curriculo:hover {
     background-color: var(--curriculo);
 }
 
